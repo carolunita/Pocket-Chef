@@ -1,0 +1,83 @@
+/* GENERAL */
+
+.loginpanel {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 650px;
+}
+
+#loginbox {
+	margin: auto 25px;
+	padding: 10px 25px !important;
+  	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    font-family: "Quicksand", sans-serif;
+	font-size: 15px;
+}
+
+#signup, #login {
+	width: 100%; 
+	margin: 0px auto;
+}
+
+/* BUTTONS */
+
+#buttons {
+	margin-bottom: 40px;
+	padding: 20px !important;
+}
+
+.main {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	font-size: 50px !important;
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.sideline {
+	position: absolute;
+	top: 30px;
+	right: 70px;
+	padding: 5px 10px;
+	font-weight: bold;
+	font-size: 20px !important;
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+.sideline:hover {
+	cursor: pointer;
+}
+
+.send {
+	width: 75%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: #000000;
+}
+
+.send:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Large Devices <1200px */
+@media (max-width: 1199px) { 
+	.loginpanel {
+		min-width: auto;
+	}
+}

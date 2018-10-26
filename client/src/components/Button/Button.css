@@ -1,0 +1,57 @@
+.button {
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border: 2px solid #ffffff;
+    font-size: 30px;
+    color: #000000;
+}
+ 
+ .button:hover {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #ffffff;
+ }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (min-width: 400px) { 
+    .button  {
+        margin-top: 10px !important;
+        font-size: 18px !important;
+        padding: 5px 10px !important;
+    }
+}  
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .button  {
+        font-size: 24px !important;
+        padding: 8px 15px !important;
+        margin-top: 5px !important;
+    }
+  }
+  
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .button  {
+        font-size: 26px;
+        padding: 10px 20px !important;
+        margin-top: 3px !important;
+    }
+  }
+    
+  /* arge devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .button  {
+        font-size: 28px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .button  {
+        font-size: 30px;
+    }
+  }

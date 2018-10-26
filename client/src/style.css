@@ -1,0 +1,160 @@
+/* GENERAL */
+
+body {
+  width: 100%;
+  margin: 0px !important;
+  padding: 0px;
+  background-image: linear-gradient(to right, red, yellow);
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 85%;
+  margin: 0px auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  margin: 0px !important;
+  padding: 0px 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px !important;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom right,  red, yellow);
+}
+
+/* HEADERS AND TEXT */
+
+h1, h2, h3 {
+  color: black;
+}
+
+.subheading {
+  margin-bottom: 15px;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.byline {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* BUTTONS */
+
+button {
+  border: none;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center !important;
+}
+
+button:active, button:focus, button:hover {
+  outline: none;
+}
+
+button.gradient-button {
+  padding: 10px 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right,  red, yellow);
+  color: black;
+}
+
+button.white-button {
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: black;
+}
+
+button.oversized {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 25px !important;
+  border: 2px solid #ffffff;
+}
+
+button.oversized:hover {
+  background: #ffffff;
+  color: black;
+  border: 2px solid #000000;
+}
+
+/* FORMS */
+
+input {
+  display: block;
+  width: 75%;
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px !important;
+  color: #000000;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+input:active, input:focus {
+  outline: none;
+}
+
+input.form-input {
+  width: 100%;
+  margin: 7px auto;
+}
+
+/* MEDIA QUERIES */
+
+/* Large Devices <1200px */
+@media (max-width: 1199px) { 
+}
+
+/* Medium Devices <992px */
+@media (max-width: 991px) { 
+  .container {
+      width: 90% !important;
+  }
+}
+
+/* Small Devices <768px */
+@media (max-width: 767px) { 
+  .container {
+      width: 95% !important;
+  }
+}
+
+/* Tiny Devices < 576px */
+@media (max-width: 575px) { 
+}

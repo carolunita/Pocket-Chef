@@ -1,0 +1,77 @@
+/* ELEMENTS */
+
+.qform {
+    width: 100%;
+    margin: 100px auto 25px auto;
+    text-align: center;
+    color: #000000 !important;
+}
+
+/* HEADERS AND TEXT */
+
+.formh2 {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+.form-input {
+    width: 100%;
+    height: auto;
+    z-index: auto;
+    position: relative;
+    line-height: normal;
+    font-size: 16.32px;
+    transition: none 0s ease 0s;
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+.title {
+    font-size: 16.32px;
+    transition: none 0s ease 0s;
+    z-index: auto;
+    position: relative;
+    line-height: normal;
+    width: 100%;
+    background: #ffffff !important;
+    color: #000000;
+}
+
+.form-input::placeholder {
+    color: #000000;
+  }
+
+.url {
+    font-size: 16.32px;
+    transition: none 0s ease 0s;
+    z-index: auto;
+    position: relative;
+    line-height: normal;
+    width: 100%;
+    background: #ffffff !important;
+    color: #000000;
+}
+
+.form-control {
+    color: #000000;
+}
+
+input.placeholder {
+    color: #000000 !important;
+}
+
+/* FORM */
+
+.larger {
+    height: 200px;
+}
+
+/* BUTTONS */
+
+.create {
+    margin-top: 15px;
+}

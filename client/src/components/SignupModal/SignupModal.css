@@ -1,0 +1,35 @@
+/* GENERAL */
+
+div.modalpanel {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 650px;
+	text-align: center;
+}
+
+div.modalbox {
+	margin: auto 25px;
+	padding: 15px 25px !important;
+  	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    font-family: "Quicksand", sans-serif;
+	font-size: 15px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/* HEADERS AND TEXT */
+
+h1.modalh1 {
+	font-size: 45px;
+}
+
+/* BUTTONS */
+
+button.modalbutton {
+	margin-top: 15px;
+	width: 50%;
+}

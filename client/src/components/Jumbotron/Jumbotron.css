@@ -1,0 +1,74 @@
+.jumbotron {
+  height: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (min-width: 400px) and (max-width: 575px) {
+  .jumbotron h1 {
+    font-size: 28px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+  p {
+    font-size:16px;
+  }
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .jumbotron h1 {
+    font-size: 30px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+  p {
+    font-size: 18px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .jumbotron h1 {
+      font-size: 32px;
+      padding-top: 0px;
+      font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+/* arge devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron h1 {
+      font-size: 34px;
+      font-weight: bold;
+      padding-top: 0px;
+  }
+  p {
+    font-size:22px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron h1 {
+      font-size: 36px;
+      font-weight: bold;
+  }
+  p {
+    font-size:24px;
+  }
+}

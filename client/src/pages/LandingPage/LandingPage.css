@@ -1,0 +1,9 @@
+/* GENERAL */
+
+.homepage {
+    background: url("http://content.careeronecdn.com.au/you-watercoolertalk-articles/Confessions_chef.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    overflow: hidden;
+}

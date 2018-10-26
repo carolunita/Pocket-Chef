@@ -1,0 +1,25 @@
+/* GENERAL */
+
+.filterholder {
+    margin-top: 100px;
+}
+
+.filterlist {
+    margin-bottom: -100px;
+}
+
+/* FILTERS */
+
+.filter {
+   margin-right: 10px;
+   margin-bottom: 10px;
+   padding: 5px 20px !important;
+   border-radius: 20px;
+   border: 2px solid #000000;
+}
+
+.filter:hover {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: #000000;
+    border: 2px solid #ffffff;
+}

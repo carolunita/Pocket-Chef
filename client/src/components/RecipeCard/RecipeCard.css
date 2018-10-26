@@ -1,0 +1,58 @@
+/* RECIPE CARDS */
+
+.cardbox {
+	display: inline-block;
+	overflow: hidden;
+	padding: 10px;
+	background: transparent;
+}
+
+.card {
+	padding: 25px;
+	border: none;
+	border-radius: 10px;
+	min-height: 250px;
+}
+
+.card:hover{
+    border: 2px solid #000000;
+}
+
+.card-default {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* BUTTONS */
+
+.card-title {
+	position: absolute;
+	bottom: 10px;
+	padding: 5px 20px !important;
+	border-radius: 25px;
+	cursor: pointer;
+	border: 2px solid #000000;
+}
+
+.card-title:hover{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.delete {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 5px 10px !important;
+	border-radius: 100px;
+	z-index: 100;
+	border: 2px solid #000000 !important;
+}
+
+.delete:hover {
+    background-image: linear-gradient(to bottom right, red, yellow) !important;
+    color: #000000 !important;
+    border: 2px solid #ffffff !important;
+}
