@@ -19,13 +19,13 @@ app.use(bodyParser.json());
 // Loads static files
 app.use(express.static(publicPath));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(publicPath, "index.html"))
-})
-
 // Imports routes
 require("./routes/user-routes.js")(app);
 require("./routes/api-routes.js")(app);
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(publicPath, "index.html"))
+})
 
 // Starts Express.js server
 db.sequelize.sync().then(function() {
